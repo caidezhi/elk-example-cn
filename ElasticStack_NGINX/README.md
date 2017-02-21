@@ -1,4 +1,4 @@
-### Elastic Stack入门之Nginx日志
+### Elastic Stack入门之处理Nginx日志
 本篇入门教程将会演示如何用Elastic Stack来对Nginx访问日志进行解析，分析以及可视化。在这个示例中我们将采用Nginx默认的combined格式日志。
 
 ##### 版本

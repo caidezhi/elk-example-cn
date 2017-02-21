@@ -1,4 +1,4 @@
-### Elastic Stack入门之Nginx日志(JSON格式)
+### Elastic Stack入门之处理Nginx日志(JSON格式)
 本篇入门教程将会演示如何用Elastic Stack来对Nginx访问日志进行解析，分析以及可视化。我们将采用JSON格式的Nginx日志，示例数据文件可以在下面的下载章节找到。
 
 
