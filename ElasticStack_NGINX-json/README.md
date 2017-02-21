@@ -30,7 +30,7 @@
 
 - `nginx_json_logs` - JSON格式的 Nginx 日志文件
 - `nginx_json_logstash.conf` - Logstash 配置文件
-- `nginx_json_template.json` - Nginx 日志映射文件
+- `nginx_json_template.json` - Nginx 日志字段映射文件
 - `nginx_json_kibana.json` -  Kibana dashboard 配置文件
 
 可以用如下命令下载文件:
@@ -68,7 +68,7 @@ cat nginx_json_logs | <path_to_logstash_root_dir>/bin/logstash -f nginx_json_log
 
  * 检查数据是否被Elasticsearch索引成功
 
-  运行 `http://localhost:9200/nginx_json_elastic_stack_example/_count` 返回的响应中应该能看到 `"count":51462`
+  运行 `http://localhost:9200/nginx_json_elastic_stack_example/_count` 返回的响应中应该能看到类似 `"count":51462`
 
  **注意:** 我们假设Elasticsearch跟Logstash运行在同一台机器，并且没有修改默认的配置。如果你修改了默认的配置，请修改配置文件`nginx_json_logstash.conf`， `output { elasticsearch { ... } }`中的   `host` 和 `cluster`
 
