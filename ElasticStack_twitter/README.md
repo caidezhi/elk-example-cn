@@ -61,7 +61,8 @@ input {
 ```
 
 ##### 2. 用Logstash推送数据到 Elasticsearch
-* Execute the following command to start ingesting tweets of interest into Elasticsearch. Since this example is a monitoring Twitter in real time, the tweet ingestion volume will depend on the popularity of the words being tracked. When you run the above command, you should see a trail of dots (`...`) in your shell as new tweets are ingested.
+* 执行下面的命令开始索引twitter 数据到 Elasticsearch。因为我们实时监控 Twitter, 收集的数据量取决于关键字的流行程度。
+运行下面的命令，你会在控制台看到一些列的 `...`，这表示抓取到了新的数据。
 
   ```shell
    <path_to_logstash_root_dir>/bin/logstash -f twitter_logstash.conf
