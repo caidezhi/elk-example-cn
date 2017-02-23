@@ -3,7 +3,7 @@
 本篇示例将会演示如何用Elastic Stack来分析美国联邦选举委员会公布的2013-2014大选期间的竞选捐款数据。示例用到[数据](http://www.fec.gov/finance/disclosure/ftpdet.shtml#a2013_2014) 来自 [联邦选举委员会](http://www.fec.gov/finance/disclosure/ftpdet.shtml)网站。
 
 你也可以通过阅读下面这篇博客来了解一些背景知识
-[Kibana 4 for investigating PACs, Super PACs, and who your neighbor might be voting for](http://www.elasticsearch.org/blog/
+[Kibana 4 for investigating PACs, Super PACs, and who your neighbor might be voting for](http://www.elasticsearch.org/blog/kibana-4-for-investigating-pacs-super-pacs-and-your-neighbors/)
 
 ##### 版本
 本示例在以下版本测试通过
