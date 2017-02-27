@@ -10,7 +10,7 @@
 - Kibana 5.0.0
 
 ### 安装与设置
-* 参照 [Installation & Setup Guide]() 安装 Elastic Stack。
+* 参照 [Installation & Setup Guide](../installation_and_setup.md) 安装 Elastic Stack。
 
 * 运行 Elasticsearch & Kibana
   ```

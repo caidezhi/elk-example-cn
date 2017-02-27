@@ -1,6 +1,7 @@
 Elastic Stack入门教程
 ===================
 * [Elastic Stack入门教程](README.md)
+  * [Elastic Stack安装与设置](installation_and_setup.md)
   * [Elastic Stack入门之处理Nginx日志(JSON格式)](ElasticStack_NGINX-json/README.md)
   * [Elastic Stack入门之处理Nginx日志](ElasticStack_NGINX/README.md)
   * [Elastic Stack入门之处理Apache日志](ElasticStack_apache/README.md)
